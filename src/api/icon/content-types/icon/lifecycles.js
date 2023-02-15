@@ -6,8 +6,7 @@ module.exports = {
         to: "dev@zloc.ws",
         from: "dev@zloc.ws",
         subject: "New icon created",
-        text: `New icon created: ${result.name}`,
-        html: `New icon created: ${result.name}`,
+        text: `New icon created: ${result.title}`,
       });
     } catch (err) {
       console.log(err);

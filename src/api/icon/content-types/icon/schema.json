@@ -4,7 +4,8 @@
   "info": {
     "singularName": "icon",
     "pluralName": "icons",
-    "displayName": "Icon"
+    "displayName": "Icon",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,17 +27,17 @@
       "unique": true
     },
     "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
     "Category": {
       "pluginOptions": {
@@ -50,7 +51,8 @@
         "Feelings",
         "People",
         "Places"
-      ]
+      ],
+      "required": true
     }
   }
 }

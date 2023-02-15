@@ -1870,6 +1870,15 @@
     "@strapi/utils" "4.5.5"
     lodash "4.17.21"
 
+"@strapi/plugin-email@^4.6.1":
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-email/-/plugin-email-4.6.1.tgz#29b33aad6d24063ee5381c3452dd0de6adfb6d89"
+  integrity sha512-VPcwwKVUnRywXrsIgQMnc1EyXWREXceExcv296MrpHYt7eWREBBpE4DhaVH01KV15VTbfMZfRnYIHSo76FqLbg==
+  dependencies:
+    "@strapi/provider-email-sendmail" "4.6.1"
+    "@strapi/utils" "4.6.1"
+    lodash "4.17.21"
+
 "@strapi/plugin-i18n@4.5.5":
   version "4.5.5"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.5.5.tgz#9c48f23821629b35a5aba6a6c7d9b290dd4a12ea"
@@ -1941,6 +1950,14 @@
   integrity sha512-/CLUDV7WdS/segprEn0Y11TqvZNP4QUu7qnn8eYZfgrP6MmhgMzvYJfZWtxW4BGbiMqplJwpiDMBkWm6hyWaww==
   dependencies:
     "@strapi/utils" "4.5.5"
+    sendmail "^1.6.1"
+
+"@strapi/provider-email-sendmail@4.6.1":
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-email-sendmail/-/provider-email-sendmail-4.6.1.tgz#4dd390557f236f26d18294668d6fa24ec3c9f18d"
+  integrity sha512-StwXH5vFRRrUQ29yNGZd+JFl2PwbOWPmIhdTeciuJuLpLpMRwOo+cdbDxNYB1Vr9aH68txgKbthGPu495Narfg==
+  dependencies:
+    "@strapi/utils" "4.6.1"
     sendmail "^1.6.1"
 
 "@strapi/provider-upload-cloudinary@4.5.5":

@@ -28,13 +28,10 @@ module.exports = {
             to: `${result.email}`,
             from: "dev@zloc.ws",
             subject: "New user registered",
-            text: `Hi ${result.firstname},
-            <br />
-            welcome to map republic!
-            <br />
-            please follow this link to activate your account: ${process.env.BACKEND_URL}admin/auth/register?registrationToken=
+            text: `Hi ${result.firstname}, welcome to map republic! please follow this link to activate your account: ${process.env.BACKEND_URL}admin/auth/register?registrationToken=
             ${result.registrationToken}
             `,
+            html: `<h3>Hi ${result.firstname},</h3><p>welcome to map republic! please follow<a href="${process.env.BACKEND_URL}admin/auth/register?registrationToken=${result.registrationToken}">${process.env.BACKEND_URL}admin/auth/register?registrationToken=${result.registrationToken}this link</a>to activate your account!</p>`,
           });
           console.log(result);
         } catch (err) {

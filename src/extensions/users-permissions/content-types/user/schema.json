@@ -65,6 +65,9 @@
     },
     "Avatar": {
       "type": "text"
+    },
+    "Map": {
+      "type": "json"
     }
   }
 }

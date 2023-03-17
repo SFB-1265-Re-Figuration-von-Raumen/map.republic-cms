@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "canvas_uis",
+  "info": {
+    "singularName": "canvas-ui",
+    "pluralName": "canvas-uis",
+    "displayName": "CanvasUI"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DescribeIcon": {
+      "type": "string",
+      "default": "Beschreibe dein Icon mit einem zeitlichen Attribut",
+      "required": true,
+      "unique": true
+    },
+    "Schoolweek": {
+      "type": "string",
+      "default": "Schulwoche",
+      "required": true,
+      "unique": true
+    },
+    "SchollweekValue": {
+      "type": "string",
+      "default": "Mo/Fr",
+      "required": true,
+      "unique": true
+    },
+    "Weekend": {
+      "type": "string",
+      "default": "Wochenende",
+      "required": true,
+      "unique": true
+    },
+    "WeekendValue": {
+      "type": "string",
+      "default": "Sa/So",
+      "required": true,
+      "unique": true
+    },
+    "Time": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "default": "Uhrzeit"
+    },
+    "Duration": {
+      "type": "string",
+      "default": "Dauer",
+      "required": true,
+      "unique": true
+    }
+  }
+}

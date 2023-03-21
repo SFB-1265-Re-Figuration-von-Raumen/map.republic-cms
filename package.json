@@ -11,12 +11,11 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-email": "^4.6.1",
-    "@strapi/plugin-i18n": "4.5.5",
-    "@strapi/plugin-users-permissions": "4.5.5",
+    "@strapi/strapi": "4.7.0",
+    "@strapi/plugin-users-permissions": "4.7.0",
+    "@strapi/plugin-i18n": "4.7.0",
     "@strapi/provider-email-sendgrid": "^4.6.1",
     "@strapi/provider-upload-cloudinary": "4.5.5",
-    "@strapi/strapi": "4.5.5",
     "pg": "8.8.0"
   },
   "author": {

@@ -5,7 +5,7 @@
     "singularName": "icon",
     "pluralName": "icons",
     "displayName": "Icon",
-    "description": "icons for the app"
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -50,7 +50,8 @@
         "Activities",
         "Feelings",
         "People",
-        "Places"
+        "Places",
+        "Internet"
       ],
       "required": true
     }

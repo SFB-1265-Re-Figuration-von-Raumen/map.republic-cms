@@ -68,6 +68,10 @@
     },
     "Map": {
       "type": "json"
+    },
+    "Icons": {
+      "type": "text",
+      "unique": true
     }
   }
 }

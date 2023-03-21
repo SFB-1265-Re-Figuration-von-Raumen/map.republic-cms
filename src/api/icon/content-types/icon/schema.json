@@ -5,7 +5,7 @@
     "singularName": "icon",
     "pluralName": "icons",
     "displayName": "Icon",
-    "description": ""
+    "description": "icons for the app"
   },
   "options": {
     "draftAndPublish": true

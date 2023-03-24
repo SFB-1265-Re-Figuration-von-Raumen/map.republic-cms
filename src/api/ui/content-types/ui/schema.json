@@ -1,0 +1,78 @@
+{
+  "kind": "singleType",
+  "collectionName": "uis",
+  "info": {
+    "singularName": "ui",
+    "pluralName": "uis",
+    "displayName": "UI",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "ButtonDone": {
+      "type": "string",
+      "default": "Fertig",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "ButtonPrev": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Zurück",
+      "required": true
+    },
+    "ButtonForward": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "Weiter"
+    },
+    "ButtonAbort": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "ButtonAllow": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Erlauben",
+      "required": true
+    },
+    "ButtonSave": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "Speichern"
+    }
+  }
+}

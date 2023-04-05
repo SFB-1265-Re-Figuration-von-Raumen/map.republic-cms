@@ -69,9 +69,26 @@
     "Map": {
       "type": "json"
     },
-    "Icons": {
-      "type": "text",
+    "Class": {
+      "type": "string",
+      "required": true,
       "unique": true
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "color",
+        "dark"
+      ],
+      "default": "color",
+      "required": true
+    },
+    "Photos": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

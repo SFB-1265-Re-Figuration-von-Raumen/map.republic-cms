@@ -83,12 +83,13 @@
       "default": "color",
       "required": true
     },
-    "Photos": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true
+    "hash": {
+      "type": "string",
+      "required": false
+    },
+    "AdminClasses": {
+      "type": "json",
+      "private": true
     }
   }
 }

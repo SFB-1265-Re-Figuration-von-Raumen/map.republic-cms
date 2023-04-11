@@ -88,8 +88,7 @@
       "required": false
     },
     "AdminClasses": {
-      "type": "json",
-      "private": true
+      "type": "json"
     }
   }
 }

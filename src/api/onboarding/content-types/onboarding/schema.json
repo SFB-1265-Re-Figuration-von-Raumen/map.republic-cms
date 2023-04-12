@@ -246,6 +246,16 @@
       "default": "divers",
       "required": true,
       "unique": true
+    },
+    "dings": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "private": true,
+      "default": "dings"
     }
   }
 }

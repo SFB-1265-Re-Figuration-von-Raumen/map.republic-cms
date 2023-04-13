@@ -215,6 +215,47 @@
       "type": "richtext",
       "default": "Jetzt kann es losgehen. Wähle das Theme deiner App aus. Das kannst du auch später noch ändern.",
       "required": true
+    },
+    "female": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "weiblich",
+      "required": true
+    },
+    "male": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "männlich"
+    },
+    "diverse": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "divers",
+      "required": true,
+      "unique": true
+    },
+    "dings": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "private": true,
+      "default": "dings"
     }
   }
 }

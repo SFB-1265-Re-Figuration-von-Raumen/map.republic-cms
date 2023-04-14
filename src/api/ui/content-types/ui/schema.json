@@ -75,6 +75,76 @@
       "type": "string",
       "required": true,
       "default": "Speichern"
+    },
+    "TimeDisclaimer": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Beschreibe dein Icon mit einem zeitlichen Attribut",
+      "required": true
+    },
+    "Weekend": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Wochenende",
+      "required": true
+    },
+    "WeekendValue": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Sa/So",
+      "required": true
+    },
+    "Schulwoche": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Mo-Fr",
+      "required": true
+    },
+    "SchoolWeekValue": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Mo-Fr",
+      "required": true
+    },
+    "Time": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Uhrzeit",
+      "required": true
+    },
+    "Duration": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Dauer",
+      "required": true
     }
   }
 }

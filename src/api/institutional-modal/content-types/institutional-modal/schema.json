@@ -1,0 +1,92 @@
+{
+  "kind": "singleType",
+  "collectionName": "institutional_modals",
+  "info": {
+    "singularName": "institutional-modal",
+    "pluralName": "institutional-modals",
+    "displayName": "Institutional Modal"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Meine MapRepublic",
+      "required": true
+    },
+    "About": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "default": "Über Maprepublic Über MaprepublicIl maximpor restibus assinvel iur? Ne cus- dam dolupta ventet, totat fugiasperum fugitio restia sundi- tatist voluptatiur, officietur sum alicate molora ad quat qui ium que liscillanda eosam, inctium ipsandiam, sim esti si ducias exceriamet latume excea si ditem isquo optaquas nobis miniaspic temolest lam, quamusa dit vel est eat eve- nima gnatem apis audia seritint, sin cum la vendus a ad ut et laborio nsectia sitati disitaque voluptati as aliquatis ea volum nonem et harum audae. Et voluptam ex est, in re pli- que ne pre, qui officil modit volenes dendelis dus estia sunt hicimus dictiis debisit, sin rempossi corerio. Olupis ditempor autessuntur auda dolo il modi con pa delis ium quatis essi- tatis alitia pratis qui volest, consedit ex et quia vendae rec- tiae. Evelibus. Ro berit re cum ese eaqui is etur autestr untioratem etus, optur, con cus sum dolores enissequo bla ditaepe quamu- scit quo dus, non por magnati commolupid que elendus animincium velis dolupta idenita quasitis si bernam qui",
+      "required": true
+    },
+    "Tutorial": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "default": "Tutorial Über MaprepublicIl maximpor restibus assinvel iur? Ne cus- dam dolupta ventet, totat fugiasperum fugitio restia sundi- tatist voluptatiur, officietur sum alicate molora ad quat qui ium que liscillanda eosam, inctium ipsandiam, sim esti si ducias exceriamet latume excea si ditem isquo optaquas Amaximpor restibus assinvel iur? Ne cusdam dolupta ven- tet, totat fugiasperum fugitio restia sunditatist voluptatiur, officietur sum alicate molora ad quat qui ium que liscillan- da eosam, inctium ipsandiam, sim esti si ducias exceriamet latume excea si ditem isquo optaquas nobis miniaspic te-",
+      "required": true
+    },
+    "TutorialVideo": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "<iframe src=\"https://player.vimeo.com/video/454500236?h=56756107f8\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen></iframe> <p><a href=\"https://vimeo.com/454500236\">How to make a Vimeo Create video</a> from <a href=\"https://vimeo.com/staff\">Vimeo Staff</a> on <a href=\"https://vimeo.com\">Vimeo</a>.</p>",
+      "required": true
+    },
+    "PrivacyNote": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "default": "Datenschutz und Imprint Lorem Ipsum: www.linktoawebsite.de Lorem Ipsum: www.linktoawebsite.de",
+      "required": true
+    },
+    "Contributors": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "default": "Mitwirkende Aaximpor restibus assinvel iur? Ne cusdam dolupta ventet,  Dark Mode Color Mode   MapRepublic Tutorial     Aaximpor restibus assinvel iur? Ne cusdam dolupta ventet,  Edit totat fugiasperum fugitio restia sunditatist voluptatiur, of- ficietur sum alicate molora ad quat qui ium que liscillanda eosam, inctium ipsandiam, sim esti si ducias exceriamet latume excea si ditem isquo optaquas nobis miniaspic te- molest lam, quamusa dit vel est eat evenima gnatem apis audia seritint, sin cum la vendus a ad ut et laborio nsec- tia sitati disitaque voluptati as aliquatis ea volum nonem et harum audae. Et voluptam ex est, in re plique ne pre, qui officil modit volenes dendelis dus estia sunt hicimus dicti- is debisit, sin rempossi corerio. Olupis ditempor autessun-",
+      "required": true
+    },
+    "Logos": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    }
+  }
+}

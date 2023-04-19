@@ -4,7 +4,8 @@
   "info": {
     "singularName": "institutional-modal",
     "pluralName": "institutional-modals",
-    "displayName": "Institutional Modal"
+    "displayName": "Institutional Modal",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -51,7 +52,7 @@
           "localized": true
         }
       },
-      "type": "string",
+      "type": "text",
       "default": "<iframe src=\"https://player.vimeo.com/video/454500236?h=56756107f8\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen></iframe> <p><a href=\"https://vimeo.com/454500236\">How to make a Vimeo Create video</a> from <a href=\"https://vimeo.com/staff\">Vimeo Staff</a> on <a href=\"https://vimeo.com\">Vimeo</a>.</p>",
       "required": true
     },
@@ -76,17 +77,17 @@
       "required": true
     },
     "Logos": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     }
   }
 }

@@ -26,56 +26,6 @@
         }
       }
     },
-    "AvatarHair": {
-      "type": "string",
-      "default": "Oben",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "AvatarClothes": {
-      "type": "string",
-      "required": true,
-      "default": "Klamotten",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "AvatarEyes": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true,
-      "default": "Augen"
-    },
-    "AvatarEyeBrows": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true,
-      "default": "Augenbraue"
-    },
-    "AvatarSkin": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "default": "Haut",
-      "required": true
-    },
     "PrivacyDisclaimer": {
       "pluginOptions": {
         "i18n": {

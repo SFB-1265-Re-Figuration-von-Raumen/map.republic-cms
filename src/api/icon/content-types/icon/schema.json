@@ -47,10 +47,14 @@
       },
       "type": "enumeration",
       "enum": [
-        "Activities",
-        "Feelings",
-        "People",
-        "Places",
+        "Aktivitäten",
+        "actividades",
+        "Gefühle",
+        "Sentimientos",
+        "Personen",
+        "Personas",
+        "Orte",
+        "Lugares",
         "Internet"
       ],
       "required": true

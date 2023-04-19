@@ -145,6 +145,96 @@
       "type": "string",
       "default": "Dauer",
       "required": true
+    },
+    "AvatarStyle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Hintergrund",
+      "required": true
+    },
+    "AvatarClothes": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Klamotten",
+      "required": true
+    },
+    "AvatarHair": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Haare",
+      "required": true
+    },
+    "AvatarFacialHair": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Gesichtsbehaarung",
+      "required": true
+    },
+    "AvatarEyes": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Augen",
+      "required": true
+    },
+    "AvatarEyebrows": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Augenbrauen",
+      "required": true
+    },
+    "AvatarAccesoires": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "Accessoires"
+    },
+    "AvatarMouth": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Mund",
+      "required": true
+    },
+    "AvatarSkin": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Haut",
+      "required": true
     }
   }
 }

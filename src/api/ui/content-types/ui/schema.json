@@ -235,6 +235,16 @@
       "type": "string",
       "default": "Haut",
       "required": true
+    },
+    "dings": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "dings",
+      "required": true
     }
   }
 }

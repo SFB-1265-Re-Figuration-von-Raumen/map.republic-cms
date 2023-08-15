@@ -39,25 +39,10 @@
         }
       }
     },
-    "Category": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "Aktivitäten",
-        "actividades",
-        "Gefühle",
-        "Sentimientos",
-        "Personen",
-        "Personas",
-        "Orte",
-        "Lugares",
-        "Internet"
-      ],
-      "required": true
+    "icon_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon-category.icon-category"
     }
   }
 }

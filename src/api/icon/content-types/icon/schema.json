@@ -58,6 +58,11 @@
         "Internet"
       ],
       "required": true
+    },
+    "icon_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon-category.icon-category"
     }
   }
 }

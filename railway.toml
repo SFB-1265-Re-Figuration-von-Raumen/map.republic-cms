@@ -1,18 +1,13 @@
 [runtime]
   name = "nodejs"
-  version = "18.x"
-  release = "18.x"
+  version = "16.x"
+  release = "16.x"
 
 [build]
   node_version = '16.x'
   builder = "nixpacks"
   buildCommand = "echo building!"
 
-
-[phases.setups]
-
-# NIXPACKS_NODE_VERSION = "16.6.1"
-# 
 
 
 

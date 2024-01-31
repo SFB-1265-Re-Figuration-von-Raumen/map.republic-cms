@@ -1,12 +1,11 @@
+[build]
+  builder = "nixpacks"
+  node_version = "16.x"
+
 [runtime]
   name = "nodejs"
   version = "16.x"
   release = "16.x"
-
-[build]
-  node_version = '16.x'
-  builder = "nixpacks"
-  buildCommand = "echo building!"
 
 
 

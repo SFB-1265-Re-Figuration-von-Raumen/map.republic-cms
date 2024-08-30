@@ -1,3 +1,5 @@
+# Maprepublic CMS
+
 ---
 title: Strapi
 description: A self-hosted version of Strapi using a Postgres database
